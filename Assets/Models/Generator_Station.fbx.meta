@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 4c6524f0a2112fc41bda398536864cb4
+guid: 10fed96f71d8d7f4bbea22149f9eeb3f
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: metalOrange(Clone)
-    second: {fileID: 2100000, guid: ea7aab8e08cbbf84d878599831973866, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
