@@ -98,7 +98,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 149098600015140021}
   cam: {fileID: 0}
-  speed: 11.4
+  speed: 10
   gravity: -9.81
   turnSmoothTime: 0.1
   groundCheck: {fileID: 2687273661748717732}
