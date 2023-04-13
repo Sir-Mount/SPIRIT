@@ -11,7 +11,8 @@ public class PlayerScript : MonoBehaviour
     public float speed = 6f;
     private Vector3 velocity;
     public float gravity = -9.81f;
-
+    public float jumpHeight = 1.5f;
+    
     public float turnSmoothTime = 0.1f;
     private float turnSmoothVelocity;
 
@@ -46,7 +47,11 @@ public class PlayerScript : MonoBehaviour
             controller.Move(moveDir.normalized * (speed * Time.deltaTime));
         }
 
-        velocity.y += gravity * Time.deltaTime;
+        if(Input.GetButtonDown("Jump") && isGrounded){
+            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+        }
+
+        velocity.y += (gravity*1.5f) * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
     
     }

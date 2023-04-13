@@ -100,6 +100,7 @@ MonoBehaviour:
   cam: {fileID: 0}
   speed: 10
   gravity: -9.81
+  jumpHeight: 1.5
   turnSmoothTime: 0.1
   groundCheck: {fileID: 2687273661748717732}
   groundDistance: 0.2
