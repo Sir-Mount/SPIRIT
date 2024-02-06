@@ -53,6 +53,7 @@ public class PlayerScript : MonoBehaviour
 
         velocity.y += (gravity*1.5f) * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
-    
+        
+        
     }
 }
